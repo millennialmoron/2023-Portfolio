@@ -1,0 +1,181 @@
+body {
+    background-color: #DDE6ED;
+    color: #27374D;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 200;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1000ms ease-in-out;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.from-above {
+    opacity: 0;
+    transform: translateY(-50px);
+    letter-spacing: .01em;
+    transition: opacity 1000ms ease-in-out, transform 1000ms ease-in, letter-spacing 2500ms ease-in-out;
+}
+
+.from-above.appear {
+    transform: translateY(0);
+    letter-spacing: .25em;
+    opacity: 1;
+}
+
+.main-title {
+    padding: 120px;
+    font-family: 'Zeyada', cursive;
+    font-size: 5em;
+}
+
+h1,
+h3 {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 200;
+    color: #526D82;
+}
+
+h1 {
+    font-size: .5em;
+}
+
+h3 {
+    font-size: .25em;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-text>a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-text>a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.work {
+    padding: 200px;
+    font-size: 5em;
+}
+
+.card-group {
+    font-size: .25em;
+    background-color: #DDE6ED;
+    color: #27374D;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.card {
+    margin: 5px 10px;
+}
+
+.card-title {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 300;
+    color: #526D82;
+}
+
+.card-text {
+    font-size: .7em;
+}
+
+.btn {
+    background-color: #526D82;
+    color: #DDE6ED;
+}
+
+.btn:hover {
+    background-color: #DDE6ED;
+    border-color: #526D82;
+    color: #526D82;
+}
+
+.contact {
+    padding: 30px;
+    font-size: 5em;
+}
+
+.mypic {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.name {
+    font-weight: 400;
+    margin: -2rem;
+    padding: 0 0 12% 13%;
+    font-size: .7em;
+    z-index: 2;
+    letter-spacing: .05em;
+    color: #9DB2BF;
+    text-shadow: #DDE6ED 1px 0 10px;
+}
+
+.available {
+    font-size: .5em;
+    font-family: 'Zeyada', cursive;
+}
+
+.contact-info {
+    font-size: .25em;
+    color: #27374D;
+}
+
+li {
+    list-style-type: none;
+}
+
+.contact-info a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-info a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer {
+    background-color: #9DB2BF;
+    color: #526D82;
+    padding: 30px;
+}
