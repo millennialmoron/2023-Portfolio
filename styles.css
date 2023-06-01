@@ -60,6 +60,12 @@ h3 {
     font-size: .25em;
 }
 
+h2 {
+    font-family: 'Zeyada', cursive;
+    font-size: .5em;
+    color: #526D82;
+}
+
 a:link {
     text-decoration: none;
     color: inherit;
@@ -155,6 +161,16 @@ a:hover {
     font-family: 'Zeyada', cursive;
 }
 
+.highlights {
+    padding: 2% 8% 13% 8%;
+    font-size: 5em;
+}
+
+.highlight-info {
+    padding: 2% 13% 0% 13%;
+}
+
+.highlight-info,
 .contact-info {
     font-size: .25em;
     color: #27374D;
@@ -177,5 +193,5 @@ li {
 .footer {
     background-color: #9DB2BF;
     color: #526D82;
-    padding: 30px;
+    padding: 30px 30px 15px 30px;
 }
