@@ -5,16 +5,13 @@ body {
 }
 
 .navbar {
-    padding: 10px;
+    margin: auto;
+    padding: 1%;
 }
 
 .navbar-brand {
     font-family: 'Source Serif Pro', serif;
     font-weight: 200;
-}
-
-.nav-item {
-    padding: 0 10px;
 }
 
 .fade-in {
@@ -29,20 +26,22 @@ body {
 .from-above {
     opacity: 0;
     transform: translateY(-50px);
-    letter-spacing: .01em;
+    letter-spacing: .01rem;
     transition: opacity 1000ms ease-in-out, transform 1000ms ease-in, letter-spacing 2500ms ease-in-out;
 }
 
 .from-above.appear {
     transform: translateY(0);
-    letter-spacing: .25em;
+    letter-spacing: .25rem;
     opacity: 1;
 }
+
+
 
 .main-title {
     padding: 120px;
     font-family: 'Zeyada', cursive;
-    font-size: 5em;
+    font-size: 5vw;
 }
 
 h1,
@@ -53,16 +52,16 @@ h3 {
 }
 
 h1 {
-    font-size: .5em;
+    font-size: 3vw;
 }
 
 h3 {
-    font-size: .25em;
+    font-size: 1.5vw;
 }
 
 h2 {
     font-family: 'Zeyada', cursive;
-    font-size: .5em;
+    font-size: 3vw;
     color: #526D82;
 }
 
@@ -88,12 +87,12 @@ a:hover {
 }
 
 .work {
-    padding: 200px;
-    font-size: 5em;
+    padding: 10.5%;
+    font-size: 5vw;
 }
 
 .card-group {
-    font-size: .25em;
+    font-size: 1.5vw;
     background-color: #DDE6ED;
     color: #27374D;
     font-family: 'Roboto Condensed', sans-serif;
@@ -110,7 +109,7 @@ a:hover {
 }
 
 .card-text {
-    font-size: .7em;
+    font-size: 1vw;
 }
 
 .btn {
@@ -125,45 +124,45 @@ a:hover {
 }
 
 .contact {
-    padding: 30px;
-    font-size: 5em;
+    padding: 3% 10%;
+    font-size: 5vw;
 }
 
 .mypic {
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
     z-index: -1;
 }
 
-.img {
+img {
     display: inline;
     margin: 0 auto;
-    height: 100%;
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 .name {
     font-weight: 400;
     margin: -2rem;
     padding: 0 0 12% 13%;
-    font-size: .7em;
+    font-size: 4vw;
     z-index: 2;
-    letter-spacing: .05em;
+    letter-spacing: .05rem;
     color: #9DB2BF;
     text-shadow: #DDE6ED 1px 0 10px;
 }
 
 .available {
-    font-size: .5em;
+    font-size: 3vw;
     font-family: 'Zeyada', cursive;
 }
 
 .highlights {
     padding: 2% 8% 13% 8%;
-    font-size: 5em;
+    font-size: 5vw;
 }
 
 .highlight-info {
@@ -172,7 +171,7 @@ a:hover {
 
 .highlight-info,
 .contact-info {
-    font-size: .25em;
+    font-size: 1.5vw;
     color: #27374D;
 }
 
@@ -193,5 +192,5 @@ li {
 .footer {
     background-color: #9DB2BF;
     color: #526D82;
-    padding: 30px 30px 15px 30px;
+    padding: 1.5%;
 }
