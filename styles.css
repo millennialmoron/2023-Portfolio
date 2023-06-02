@@ -36,12 +36,20 @@ body {
     opacity: 1;
 }
 
-
-
 .main-title {
-    padding: 120px;
+    padding: 6%;
     font-family: 'Zeyada', cursive;
     font-size: 5vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 6.5vw;
+    }
+
+    /*smaller screens setting*/
+    @media (max-width: 767.98px) {
+        font-size: 6.5vw;
+    }
 }
 
 h1,
@@ -53,16 +61,46 @@ h3 {
 
 h1 {
     font-size: 3vw;
+
+    /*tablet size setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 4vw;
+    }
+
+    /*smaller screens setting*/
+    @media (max-width: 767.98px) {
+        font-size: 5vw;
+    }
 }
 
 h3 {
     font-size: 1.5vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 2vw;
+    }
+
+    /*smaller screens setting*/
+    @media (max-width: 767.98px) {
+        font-size: 3vw;
+    }
 }
 
 h2 {
     font-family: 'Zeyada', cursive;
     font-size: 3vw;
     color: #526D82;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 4.5vw;
+    }
+
+    /*smaller screens setting*/
+    @media (max-width: 767.98px) {
+        font-size: 5vw;
+    }
 }
 
 a:link {
@@ -110,6 +148,16 @@ a:hover {
 
 .card-text {
     font-size: 1vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 2vw;
+    }
+
+    /*smaller screens setting*/
+    @media (max-width: 767.98px) {
+        font-size: 3vw;
+    }
 }
 
 .btn {
@@ -142,6 +190,7 @@ img {
     margin: 0 auto;
     width: 100%;
     height: auto;
+
 }
 
 .name {
@@ -153,11 +202,35 @@ img {
     letter-spacing: .05rem;
     color: #9DB2BF;
     text-shadow: #DDE6ED 1px 0 10px;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 7vw;
+        margin: -2.5rem;
+    }
+
+    /*smaller screens setting*/
+    @media (max-width: 767.98px) {
+        font-size: 8.5vw;
+        margin: -3rem;
+    }
 }
 
 .available {
     font-size: 3vw;
     font-family: 'Zeyada', cursive;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 4vw;
+        margin: 2.5rem 0;
+    }
+
+    /*smaller screens setting*/
+    @media (max-width: 767.98px) {
+        font-size: 5vw;
+        margin: 2rem 0;
+    }
 }
 
 .highlights {
@@ -173,6 +246,17 @@ img {
 .contact-info {
     font-size: 1.5vw;
     color: #27374D;
+
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 2vw;
+    }
+
+    /*smaller screens setting*/
+    @media (max-width: 767.98px) {
+        font-size: 3vw;
+    }
 }
 
 li {
