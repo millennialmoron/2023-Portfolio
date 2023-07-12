@@ -38,6 +38,63 @@ body {
     opacity: 1;
 }
 
+.left-to-right {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    border-bottom: solid 1px #9DB2BF;
+    transition: width 2500ms ease-in;
+}
+
+.left-to-right.appear {
+    width: 100%;
+}
+
+.right-to-left {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    transform: translateX(90%);
+    overflow: hidden;
+    border-bottom: solid 1px #27374D;
+    transition: transform 2500ms ease-in;
+}
+
+.right-to-left.appear {
+    transform: translateX(0%);
+}
+
+.border-center {
+    position: relative;
+    bottom: 0;
+    width: 0%;
+    transform: translateX(50%);
+    border-bottom: solid 1px #526D82;
+    transition: width 2500ms ease-in, transform 2500ms ease-in;
+}
+
+.border-center.appear {
+    width: 50%;
+    transform: translateX(25%);
+}
+
+.border-back-center {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    transform: translateX(100%);
+    border-bottom: solid 1px #DDE6ED;
+    transition: width 2500ms ease-in, transform 2500ms ease-in;
+}
+
+.border-back-center.appear {
+    width: 50%;
+    transform: translateX(70%);
+}
+
 .main-title {
     padding: 6%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -139,21 +196,60 @@ h4 {
 }
 
 .problem {
+    padding: 5%;
     background-color: #27374D;
     color: #9DB2BF;
 }
 
-.problem h1 {
+.problem h3 {
     color: #9DB2BF;
+    font-size: 3vw;
+}
+
+.problem-text {
+    margin: 10px;
+    padding: 5% 15% 5% 25%;
+    font-size: 2vw;
 }
 
 .solution {
+    padding: 5%;
     background-color: #9DB2BF;
     color: #27374D;
 }
 
-.solution h1 {
+.solution h3 {
     color: #27374D;
+    font-size: 3vw;
+}
+
+.solution-text {
+    margin: 10px;
+    padding: 5% 25% 5% 15%;
+    font-size: 2vw;
+}
+
+.plan {
+    padding: 5%;
+    background-color: #DDE6ED;
+    color: #526D82;
+}
+
+.plan h3 {
+    color: #526D82;
+    font-size: 3vw;
+}
+
+.plan-container {
+    padding: 3% 8%;
+}
+
+.vector-images img {
+    width: 50%;
+    height: auto;
+    display: block;
+    opacity: .75;
+    padding: 2%;
 }
 
 .pricing {
@@ -161,8 +257,18 @@ h4 {
     color: #DDE6ED;
 }
 
-.pricing h1 {
+.pricing h3 {
     color: #DDE6ED;
+    font-size: 3vw;
+    padding: 5% 0 0 0;
+}
+
+.card-deck {
+    font-size: 1.5vw;
+    background-color: #526D82;
+    color: #DDE6ED;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 3%;
 }
 
 a:link {
@@ -297,16 +403,20 @@ img {
 
 .highlights {
     padding: 2% 8% 13% 8%;
-    font-size: 5vw;
+    font-size: 3vw;
+}
+
+.highlights h2 {
+    font-size: 3vw;
+}
+
+.highlights h3 {
+    font-size: 2.5vw;
 }
 
 .highlight-info {
     padding: 2% 13% 0% 13%;
-}
-
-.highlight-info,
-.contact-info {
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: #27374D;
 
 
@@ -323,6 +433,11 @@ img {
 
 li {
     list-style-type: none;
+}
+
+.contact-info {
+    font-size: 2vw;
+    color: #27374D;
 }
 
 .contact-info a:visited {
