@@ -2,6 +2,8 @@ body {
     background-color: #DDE6ED;
     color: #27374D;
     font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .navbar {
@@ -83,7 +85,7 @@ body {
 .border-back-center {
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 90%;
     overflow: hidden;
     transform: translateX(100%);
     border-bottom: solid 1px #DDE6ED;
@@ -118,6 +120,16 @@ body {
 .header h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 5vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 5.5vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 6vw;
+    }
 }
 
 .specialHead {
@@ -204,12 +216,32 @@ h4 {
 .problem h3 {
     color: #9DB2BF;
     font-size: 3vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 4vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 4.5vw;
+    }
 }
 
 .problem-text {
     margin: 10px;
     padding: 5% 15% 5% 25%;
     font-size: 2vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 2.5vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 3vw;
+    }
 }
 
 .solution {
@@ -221,12 +253,32 @@ h4 {
 .solution h3 {
     color: #27374D;
     font-size: 3vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 4vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 4.5vw;
+    }
 }
 
 .solution-text {
     margin: 10px;
     padding: 5% 25% 5% 15%;
     font-size: 2vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 2.5vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 3vw;
+    }
 }
 
 .plan {
@@ -238,6 +290,16 @@ h4 {
 .plan h3 {
     color: #526D82;
     font-size: 3vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 4vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 4.5vw;
+    }
 }
 
 .plan-container {
@@ -261,6 +323,16 @@ h4 {
     color: #DDE6ED;
     font-size: 3vw;
     padding: 5% 0 0 0;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 4vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 4.5vw;
+    }
 }
 
 .card-deck {
@@ -342,6 +414,16 @@ a:hover {
 .contact {
     padding: 3% 10%;
     font-size: 5vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 5.5vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 6vw;
+    }
 }
 
 .mypic {
@@ -408,10 +490,30 @@ img {
 
 .highlights h2 {
     font-size: 3vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 4vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 5vw;
+    }
 }
 
 .highlights h3 {
     font-size: 2.5vw;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 3vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 4vw;
+    }
 }
 
 .highlight-info {
@@ -438,6 +540,16 @@ li {
 .contact-info {
     font-size: 2vw;
     color: #27374D;
+
+    /*tablet setting*/
+    @media (min-width: 768px) and (max-width: 991.98px) {
+        font-size: 3vw;
+    }
+
+    /*smaller screens setting*/
+    @media (min-width: 0px) and (max-width: 767.98px) {
+        font-size: 4vw;
+    }
 }
 
 .contact-info a:visited {
